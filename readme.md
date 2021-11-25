@@ -10,6 +10,10 @@ export DJANGO_SETTINGS_MODULE=private_diary.settings_dev
 python manage.py makemigrations
 python manage.py migrate
 
+# テストコード実行用のユーザー・パスワードを指定
+export TEST_USER=XXXX
+export TEST_PASS=XXXX
+
 #　サーバの起動
 python manage.py runserver
 ```
